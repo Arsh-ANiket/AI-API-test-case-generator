@@ -50,9 +50,9 @@ ai-api-tester/
 │   ├── main.py          # FastAPI entry point
 │   ├── ai_service.py    # AI integration (Ollama)
 │   └── tester.py        # API testing engine
-│
+│   └── README.md
 ├── venv/
-└── README.md
+
 ```
 
 ---
