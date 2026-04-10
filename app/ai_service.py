@@ -51,6 +51,7 @@ Example:
 
     data = response.json()
     ai_text = data.get("response", "")
+    print("RAW AI TEXT:", ai_text)
     try:
         test_cases = json.loads(ai_text)
     except Exception:
